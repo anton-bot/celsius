@@ -1,6 +1,6 @@
 {
   "name": "celsius",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple converter from Celsius to Fahrenheit and vice versa.",
   "main": "index.js",
   "scripts": {

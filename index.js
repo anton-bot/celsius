@@ -37,24 +37,24 @@ function toCelsius(fahrenheitTemperature, round = 0) {
 }
 
 /**
- * Converts Celsius temperature to Fahrenheit, adding ' 캟' to the result.
+ * Converts Celsius temperature to Fahrenheit, adding ' 째F' to the result.
  * @param {string|number} celsiusTemperature - E.g. '36.6 C';
  * @param {number} [round] - How many decimals to round to. By default rounds
  * to integer.
  * @returns {string}
  */
 function toFahrenheitFmt(celciusTemperature, round = 0) {
-  return `${toFahrenheit(celciusTemperature, round)} 캟`;
+  return `${toFahrenheit(celciusTemperature, round)} 째F`;
 }
 
 /**
- * Converts Fahrenheit temperature to Celsius, adding ' 캜' to the result.
+ * Converts Fahrenheit temperature to Celsius, adding ' 째C' to the result.
  * @param {string|number} fahrenheitTemperature - E.g. '100.5 F';
  * @param {number} [round] - How many decimals to round to. By default rounds
  * to integer.
  */
 function toCelsiusFmt(fahrenheitTemperature, round = 0) {
-  return `${toCelsius(fahrenheitTemperature, round)} 캜`;
+  return `${toCelsius(fahrenheitTemperature, round)} 째C`;
 }
 
 // Because rounding is not easy! E.g. parseFloat((1.005).toFixed(2)) is wrong

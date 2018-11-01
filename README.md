@@ -32,8 +32,8 @@ toFahrenheit(36.68, 3); // 98.024
 toFahrenheit('-40.691 degrees C', 5); // -41.24380
 ```
 
-## Append the 캟 or 캜 automatically
+## Append the 째F or 째C automatically
 
 Use the functions `toCelsiusFmt()` and `toFahrenheitFmt()` with the same
 parameters to return a string containing the converted number and the characters
-` 캜` or ` 캟` respectively.
+` 째C` or ` 째F` respectively.
