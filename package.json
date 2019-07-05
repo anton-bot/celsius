@@ -1,6 +1,6 @@
 {
   "name": "celsius",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple converter from Celsius to Fahrenheit and vice versa.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/catcher-in-the-try/celsius#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^24.8.0"
   }
 }
